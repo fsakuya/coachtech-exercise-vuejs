@@ -1,0 +1,38 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.text-black {
+  color: #000;
+}
+
+.colorChange {
+  background-color: black;
+  color: white;
+}
+
+#nav {
+  list-style: none;
+  overflow: hidden;
+  padding-left: 0px;
+}
+
+#nav li {
+  width: 140px;
+  text-align: center;
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  margin-right: 1px;
+  border: 1px solid;
+  border-color: lightgray;
+}
+
+#nav li span {
+  text-decoration: none;
+}
